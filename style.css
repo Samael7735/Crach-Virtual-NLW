@@ -1,0 +1,136 @@
+* {
+  margin: 0%;
+}
+.menu{
+  width: 100%;
+  height: 100%;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: 'roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  --gray: #c4c4c4;
+  background: #121214;
+}
+
+body {
+  display: grid;
+  place-items: center;
+}
+
+main {
+  width: 375px;
+  height: 700px;
+  color: var(--gray);
+  margin-top: -40px;
+  margin-bottom: 59px; 
+}
+
+.content {
+  max-width: 250px;
+  margin: auto;
+  text-align: center;
+}
+.fundo{
+  background: url(Imagens/Desktop.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.caixa{
+  background-image: url(Imagens/Mobile.png);
+  border-width: 3px;
+  border-style:ridge;
+  border-radius: 20px;
+  margin-top: 40px;
+  position:relative;
+  
+}
+#cop{
+  max-width: 64px;
+  max-height: 158px;
+  margin-left:40%;
+  margin-right: 40%;
+  margin-top: -60px;
+  position:absolute;
+}
+#cop{
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-style:ridge;
+}
+#cop2{
+  position: absolute;
+}
+#cop2{
+  margin-top: 80px;
+  margin-left: 38%;
+  margin-right: 38%;
+}
+.avatar {
+  width: 10rem;
+  margin: 11.5rem auto 0rem;
+  position: relative;
+}
+.avatar span {
+  position: absolute;
+  top: -20px;
+  z-index: 1;
+}
+.avatar > img {
+  width: 10rem;
+  height: 11.5rem;
+  object-fit: cover;
+
+  clip-path: polygon(50% 1%, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+h1 {
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 24px;
+}
+
+a {
+  color: var(--gray);
+  margin-top: 4px;
+  text-decoration: none;
+}
+
+p {
+  margin-top: 32px;
+  color: var(--gray);
+}
+
+.social {
+  margin-top: 64px;
+  color: var(--gray);
+  list-style: none;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  padding: 0%;
+  gap: 8px;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
