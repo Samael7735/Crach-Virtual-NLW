@@ -2,7 +2,7 @@ const LinksSocialMidia = {
   github: 'Samael7735',
   instagram: 'senasamuel639',
   facebook: 'SamuelSena',
-  youtube: 'channel/UCLjV-jhntlhLhNnmlpMx1Lw'
+  youtube: 'www.youtube.com/channel/UCxGjNxUen0oCGrMU7G8hpYw'
 }
 function changeLinksSocialMidia() {
   for (let li of SocialLinks.children) {
