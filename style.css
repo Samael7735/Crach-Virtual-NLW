@@ -5,7 +5,6 @@
   width: 100%;
   height: 100%;
 }
-
 html,
 body {
   height: 100vh;
@@ -14,12 +13,10 @@ body {
   --gray: #c4c4c4;
   background: #121214;
 }
-
 body {
   display: grid;
   place-items: center;
 }
-
 main {
   width: 375px;
   height: 700px;
@@ -27,7 +24,6 @@ main {
   margin-top: -40px;
   margin-bottom: 59px; 
 }
-
 .content {
   max-width: 250px;
   margin: auto;
@@ -37,9 +33,22 @@ main {
   background: url(Imagens/Desktop.png);
   background-size: cover;
   background-repeat: no-repeat;
-  
 }
-
+.youtube{
+  background-color: #37373b;
+  height: 48px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#youtube{
+  height: 45px;
+  width: 45px ;
+}
+.border{
+  border-radius: 5px;
+}
 .caixa{
   background-image: url(Imagens/Mobile.png);
   border-width: 3px;
@@ -47,7 +56,6 @@ main {
   border-radius: 20px;
   margin-top: 40px;
   position:relative;
-  
 }
 #cop{
   max-width: 64px;
@@ -85,34 +93,28 @@ main {
   width: 10rem;
   height: 11.5rem;
   object-fit: cover;
-
   clip-path: polygon(50% 1%, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
-
 h1 {
   color: white;
   font-size: 1.5rem;
   margin-top: 24px;
 }
-
-a {
+a{
   color: var(--gray);
   margin-top: 4px;
   text-decoration: none;
 }
-
-p {
+p{
   margin-top: 32px;
   color: var(--gray);
 }
-
-.social {
+.social{
   margin-top: 64px;
   color: var(--gray);
   list-style: none;
 }
-
-ul {
+ul{
   list-style: none;
   display: flex;
   padding: 0%;
