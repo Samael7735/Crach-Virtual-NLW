@@ -46,6 +46,9 @@ main {
   height: 45px;
   width: 45px ;
 }
+#linkedin{
+  width: 30px;
+}
 .border{
   border-radius: 5px;
 }
